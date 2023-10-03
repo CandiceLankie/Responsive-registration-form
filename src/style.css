@@ -112,17 +112,21 @@ form .fields .input-field {
   transition: all 0.3s linear;
   cursor: pointer;
 }
+.container form button .container form .backBtn {
+  font-size: 125px;
+  font-weight: 400;
+}
 form button:hover {
   background-color: tan;
 }
-forn button i {
+form button i {
   margin: 0 6px;
 }
 form.buttons {
   display: flex;
   align-items: center;
 }
-form.buttons button,
+form .buttons button,
 .backBtn {
-  margin-left: 14px;
+  margin-right: 14px;
 }
